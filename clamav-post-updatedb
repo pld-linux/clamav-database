@@ -10,6 +10,6 @@ fi
     
 if [ "$FETCH_AFTER_UPGRADE" = "yes" ]; then
 	umask 022
-	/usr/bin/freshclam $freshclamopt -l /var/log/freshclam.log --daemon-notify
+	/usr/bin/freshclam $freshclamopt -l /var/log/freshclam.log --daemon-notify || :
 fi
 
