@@ -1,0 +1,19 @@
+#!/bin/sh
+
+[ -f /etc/sysconfig/clamd ] && . /etc/sysconfig/clamd
+
+[ -z "$UPDATE_QUIET" ] && UPDATE_QUIET="yes"
+[ -z "$FETCH_AFTER_UPGRADE" ] && FETCH_AFTER_UPGRADE="no"
+
+if [ "$UPDATE_QUIET" = "yes" ]; then
+    freshclamopt="--quiet"
+fi
+    
+if [ "$FETCH_AFTER_UPGRADE" = "yes" ]; then
+	umask 022
+	log=$(/usr/bin/freshclam $freshclamopt -l /var/log/freshclam.log --daemon-notify 2>&1)
+	if [ "$UPDATE_QUIET" != "yes" ]; then
+	    echo "$log"
+	fi
+fi
+
