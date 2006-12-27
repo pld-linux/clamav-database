@@ -4,12 +4,14 @@
 
 [ -z "$FETCH_AFTER_UPGRADE" ] && FETCH_AFTER_UPGRADE="no"
 
-if [ "$UPDATE_QUIET" = "yes" ]; then
-    freshclamopt="--quiet"
-fi
-    
 if [ "$FETCH_AFTER_UPGRADE" = "yes" ]; then
-	umask 022
-	/usr/bin/freshclam $freshclamopt -l /var/log/freshclam.log --daemon-notify || :
-fi
+	if [ "$UPDATE_QUIET" = "yes" ]; then
+		freshclamopt="--quiet"
+	fi
 
+	notify=
+	[ -f /var/lock/subsys/clamd ] && notify="--daemon-notify"
+
+	umask 022
+	/usr/bin/freshclam $freshclamopt -l /var/log/freshclam.log $notify || :
+fi
