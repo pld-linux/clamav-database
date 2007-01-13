@@ -2,7 +2,7 @@
 %define		daily_version		2384
 %define		database_version	20061227
 %define		_rel	1
-Summary:	Virus database for clamav
+Summary:	Virus databases for clamav
 Summary(pl):	Bazy wirusów dla clamava
 Name:		clamav-database
 Version:	%{main_version}.%{daily_version}
@@ -20,10 +20,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Virus database for clamav (updated %{database_version}).
+Virus databases for clamav (updated %{database_version}).
 
 %description -l pl
-Bazy wirusów dla clamava (aktualizowana %{database_version}).
+Bazy wirusów dla clamava (aktualizowane %{database_version}).
 
 %prep
 %setup -qcT
