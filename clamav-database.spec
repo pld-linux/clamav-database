@@ -3,7 +3,7 @@
 %define		database_version	20061227
 %define		_rel	1
 Summary:	Virus databases for clamav
-Summary(pl.UTF-8):   Bazy wirusów dla clamava
+Summary(pl.UTF-8):	Bazy wirusów dla clamava
 Name:		clamav-database
 Version:	%{main_version}.%{daily_version}
 Release:	%{database_version}.%{_rel}
