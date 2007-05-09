@@ -1,6 +1,6 @@
-%define		main_version		42
-%define		daily_version		2565
-%define		database_version	20070214
+%define		main_version		43
+%define		daily_version		3224
+%define		database_version	20070509
 %define		_rel	1
 Summary:	Virus databases for clamav
 Summary(pl.UTF-8):	Bazy wirusów dla clamava
@@ -10,9 +10,9 @@ Release:	%{database_version}.%{_rel}
 License:	GPL
 Group:		Applications/Databases
 Source0:	http://db.local.clamav.net/daily.cvd
-# Source0-md5:	c0d0e10b19e69b395da9721e01726964
+# Source0-md5:	c86ade3215764f0009602266618bbb43
 Source1:	http://db.local.clamav.net/main.cvd
-# Source1-md5:	7d561bd3e7982d899aa6221cd7619105
+# Source1-md5:	ed8b35ccdb7855328c20bb70f9a3bc06
 URL:		http://www.clamav.net/
 BuildRequires:	file
 Requires:	clamav
