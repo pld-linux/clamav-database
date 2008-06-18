@@ -12,7 +12,7 @@ Group:		Applications/Databases
 Source0:	http://db.local.clamav.net/main.cvd
 # Source0-md5:	5312db62b11f8faf48c669fb358488e0
 Source1:	http://db.local.clamav.net/daily.cvd
-# Source1-md5:	21f041ff14c6241e121f08eb99e439d9
+# Source1-md5:	a55e81db65b27779a7dbf8a1bff4f87b
 URL:		http://www.clamav.net/
 BuildRequires:	file
 Requires:	clamav
