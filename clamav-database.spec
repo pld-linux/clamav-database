@@ -3,6 +3,7 @@
 %define		database_version	201000707
 %define		rel	1
 Summary:	Virus databases for clamav
+Summary(hu.UTF-8):	Vírus adatbázis clamav-hoz
 Summary(pl.UTF-8):	Bazy wirusów dla clamava
 Name:		clamav-database
 Version:	%{main_version}.%{daily_version}
@@ -21,6 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Virus databases for clamav (updated %{database_version}).
+
+%description  -l hu.UTF-8
+Vírus adatbázis clamavhoz (%{database_version}).
 
 %description -l pl.UTF-8
 Bazy wirusów dla clamava (aktualizowane %{database_version}).
