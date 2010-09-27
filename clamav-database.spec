@@ -1,8 +1,8 @@
 %define		main_version		52
-%define		daily_version		1197
-%define		bytecode_version	50
-%define		safebrowsing_version	2388
-%define		database_version	20100920
+%define		daily_version		1202
+%define		bytecode_version	68
+%define		safebrowsing_version	2405
+%define		database_version	20100927
 %define		rel	1
 Summary:	Virus databases for clamav
 Summary(hu.UTF-8):	Vírus adatbázis clamav-hoz
@@ -15,11 +15,11 @@ Group:		Applications/Databases
 Source0:	http://db.local.clamav.net/main.cvd
 # Source0-md5:	b1e43b47f292fe18f5fd6155925b756b
 Source1:	http://db.local.clamav.net/daily.cvd
-# Source1-md5:	1bedb4000f2039d9c6f9a08e61733418
+# Source1-md5:	f0ed55471c1af8288e1e46bf5deb2681
 Source2:	http://db.local.clamav.net/bytecode.cvd
-# Source2-md5:	6607d0a07b3e6f13a60aba0e00d23036
+# Source2-md5:	62060232b00da9b0eb8e6a31c6236443
 Source3:	http://db.local.clamav.net/safebrowsing.cvd
-# Source3-md5:	bd31f2e47fbcd046d4436330c404ed67
+# Source3-md5:	25f62973c69a17f1a4d9766d79f5179a
 URL:		http://www.clamav.net/
 BuildRequires:	file
 Requires:	clamav
