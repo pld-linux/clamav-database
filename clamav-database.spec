@@ -1,6 +1,6 @@
 %define		main_version		52
 %define		daily_version		1202
-%define		bytecode_version	68
+%define		bytecode_version	69
 %define		safebrowsing_version	2405
 %define		database_version	20100927
 %define		rel	1
@@ -17,7 +17,7 @@ Source0:	http://db.local.clamav.net/main.cvd
 Source1:	http://db.local.clamav.net/daily.cvd
 # Source1-md5:	f0ed55471c1af8288e1e46bf5deb2681
 Source2:	http://db.local.clamav.net/bytecode.cvd
-# Source2-md5:	62060232b00da9b0eb8e6a31c6236443
+# Source2-md5:	5eaab1e04fc7e8a87266cac5ca41712c
 Source3:	http://db.local.clamav.net/safebrowsing.cvd
 # Source3-md5:	25f62973c69a17f1a4d9766d79f5179a
 URL:		http://www.clamav.net/
