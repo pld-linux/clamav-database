@@ -19,7 +19,7 @@ Source1:	http://db.local.clamav.net/daily.cvd
 Source2:	http://db.local.clamav.net/bytecode.cvd
 # Source2-md5:	a4884bd21ed463d98b981a458a76525f
 Source3:	http://db.local.clamav.net/safebrowsing.cvd
-# Source3-md5:	017eabb373ac30d1d98fafa062512125
+# Source3-md5:	4fc3e86b23737d844c53ed885b85ba2c
 URL:		http://www.clamav.net/
 BuildRequires:	file
 Requires:	clamav
