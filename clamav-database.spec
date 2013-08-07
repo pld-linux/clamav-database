@@ -15,7 +15,7 @@ Group:		Applications/Databases
 Source0:	http://db.local.clamav.net/main.cvd
 # Source0-md5:	eb12490fda87d602e476d4b163f8a34b
 Source1:	http://db.local.clamav.net/daily.cvd
-# Source1-md5:	3b4d353633d581916f839b77dcbc7172
+# Source1-md5:	e36cb1d4f66a076b5dfd4c18b4df48bf
 Source2:	http://db.local.clamav.net/bytecode.cvd
 # Source2-md5:	c30b0a5c60b93dae9552c11253052e6b
 Source3:	http://db.local.clamav.net/safebrowsing.cvd
