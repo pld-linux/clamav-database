@@ -1,5 +1,5 @@
 %define		main_version		54
-%define		daily_version		1757
+%define		daily_version		1763
 %define		bytecode_version	217
 %define		safebrowsing_version	4081
 %define		database_version	20130807
