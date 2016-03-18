@@ -1,4 +1,4 @@
-%define		main_version		55
+%define		main_version		57
 %define		daily_version		2146
 %define		bytecode_version	274
 %define		safebrowsing_version	4450
