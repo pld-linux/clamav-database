@@ -1,8 +1,8 @@
-%define		main_version		54
-%define		daily_version		1763
-%define		bytecode_version	217
-%define		safebrowsing_version	4081
-%define		database_version	20130807
+%define		main_version		55
+%define		daily_version		2146
+%define		bytecode_version	274
+%define		safebrowsing_version	4450
+%define		database_version	20160318
 %define		rel	1
 Summary:	Virus databases for clamav
 Summary(hu.UTF-8):	Vírus adatbázis clamav-hoz
@@ -13,13 +13,13 @@ Release:	%{database_version}.%{rel}
 License:	GPL
 Group:		Applications/Databases
 Source0:	http://db.local.clamav.net/main.cvd
-# Source0-md5:	eb12490fda87d602e476d4b163f8a34b
+# Source0-md5:	06f660f474d1a6863de4a00eb02521e3
 Source1:	http://db.local.clamav.net/daily.cvd
-# Source1-md5:	e36cb1d4f66a076b5dfd4c18b4df48bf
+# Source1-md5:	094537361a304e7fb3db64e11482cd9f
 Source2:	http://db.local.clamav.net/bytecode.cvd
-# Source2-md5:	c30b0a5c60b93dae9552c11253052e6b
+# Source2-md5:	00a0ee6fe38a9b8a01be05d9b23b1cb5
 Source3:	http://db.local.clamav.net/safebrowsing.cvd
-# Source3-md5:	f0a8fcf360d170a45032f2e4d004a1c6
+# Source3-md5:	2084da0d4ab09c719be128f893840b17
 URL:		http://www.clamav.net/
 BuildRequires:	file
 Requires:	clamav
