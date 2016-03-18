@@ -13,7 +13,7 @@ Release:	%{database_version}.%{rel}
 License:	GPL
 Group:		Applications/Databases
 Source0:	http://db.local.clamav.net/main.cvd
-# Source0-md5:	06f660f474d1a6863de4a00eb02521e3
+# Source0-md5:	f13ead862171f50019c15c946d25e91f
 Source1:	http://db.local.clamav.net/daily.cvd
 # Source1-md5:	094537361a304e7fb3db64e11482cd9f
 Source2:	http://db.local.clamav.net/bytecode.cvd
